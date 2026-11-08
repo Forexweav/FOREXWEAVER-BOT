@@ -2,8 +2,9 @@
   "name": "forexweaver-bot",
   "version": "1.0.0",
   "private": true,
-  "description": "FOREXWEAVER BOT - Advanced WhatsApp Automation and Forex Trading System by DIFFERCE FXP",
+  "description": "FOREXWEAVER BOT - Advanced WhatsApp Automation System, Forex Trading Tools and Motivation. Powered by DIFFERCE FXP.",
   "type": "module",
+  "main": "src/index.js",
   "engines": {
     "node": ">=20.0.0"
   },
@@ -23,15 +24,17 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
+    "fluent-ffmpeg": "^2.1.2",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
     "mime-types": "^2.1.35",
     "multer": "^1.4.5-lts.1",
     "pino": "^9.6.0",
+    "pino-pretty": "^11.0.0",
     "qrcode": "^1.5.4",
     "ws": "^8.18.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "supertest": "^7.0.0"
   }
 }
